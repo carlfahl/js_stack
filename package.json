@@ -1,0 +1,12 @@
+{
+  "name": "js_stack",
+  "version": "1.0.0",
+  "description": "JS stack from scratch tutorial",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/carlfahl/js_stack.git",
+    "type": "git"
+  },
+  "author": "Carl A. Fahlstrom",
+  "license": "GPL-3.0"
+}
