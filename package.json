@@ -8,5 +8,36 @@
     "type": "git"
   },
   "author": "Carl A. Fahlstrom",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "import"
+    ]
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
 }
